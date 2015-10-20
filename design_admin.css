@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	width: 700px; /* largeur */
+	margin:auto;/* centrer */
+	background-color:#000; /* couleur de fond de la page */
+	margin-top: 20px; /* marge en haut */
+	margin-bottom: 20px; /* marge en bas */
+	text-align:center;
+}
+#corps
+{	
+	background-color: #FFF; /* couleur de fond du corps */
+	text-align:left; /* centre le texte à gauche */		
+	padding: 10px; /* marge intérieur */
+	-moz-border-radius: 15px; /* bord arrondis ne fonctionne pas sous IE (étrange...) */
+	text-decoration:none; /* supprime le trait bleu du lien */
+	min-height:300px;
+}
+
+/* cache champ add/edit/submit */
+.cache
+{
+	display: none;
+}
+/* met une hauteur minimum au select */
+select
+{
+	min-width: 100px;	
+}
